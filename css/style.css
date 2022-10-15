@@ -1,0 +1,149 @@
+body {
+    height: 100%;
+    position: relative;
+}
+
+.fatihceliktr-3d{
+font-family: 'Secular One', sans-serif;
+color: #ffffff;
+font-weight:bold;
+font-size: 39px;
+text-shadow:0px 0px 0 rgb(223,223,223),1px 1px 0 rgb(202,202,202),2px 2px 0 
+rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px 
+5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+
+.test{
+font-family: 'Secular One', sans-serif;
+color: #ffffff;
+font-weight:bold;
+font-size: 55px;
+text-shadow:0px 0px 0 rgb(223,223,223),1px 1px 0 rgb(202,202,202),2px 2px 0 
+rgb(180,180,180),3px 3px 0 rgb(158,158,158), 4px 4px 0 rgb(136,136,136),5px 
+5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+label {
+    margin-bottom: 1px;
+	font-family: 'Secular One', sans-serif;
+}
+
+footer {
+    bottom: 10px;
+    text-align: center;
+    padding: auto;
+	font-family: 'Secular One', sans-serif;
+}
+
+.labeltext {
+    margin-left: 3%;
+
+}
+
+.spacing {
+    margin-top: 0px;
+	font-family: 'Secular One', sans-serif;
+}
+
+.edger {
+    margin-left: 20px;
+	font-family: 'Secular One', sans-serif;
+}
+
+.header-margin {
+	font-family: 'Secular One', sans-serif;
+}
+
+.titletext {
+    display: inline-block;
+}
+
+.inputlabel {
+    display: block;
+}
+
+/* <<<<<<<<<<<<<<<<<<< Media Query >>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: auto) {
+    .edger {
+        margin: auto;
+        text-align: center;
+    }
+
+    .inputlabel {
+        position: relative;
+        display: block;
+        text-align: left;
+    }
+
+    .spacerInput {
+        display: block;
+    }
+    
+}
+
+/* Red border */
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+/* Dashed red border */
+hr.new2 {
+  border-top: 1px dashed red;
+}
+
+/* Dotted red border */
+hr.new3 {
+  border-top: 1px dotted red;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 1px solid red;
+}
+
+/* Large rounded green border */
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
+}
