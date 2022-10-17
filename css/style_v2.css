@@ -8,6 +8,9 @@
 	letter-spacing: 0.1em;
 	min-height: calc(100vh - 0px - 940px);
 	background: #f7f9fb;
+	background-image: url("gorsel.png");
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .container{
