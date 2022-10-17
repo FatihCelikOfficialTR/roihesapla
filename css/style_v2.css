@@ -7,11 +7,13 @@
 	font-family: 'Secular One', sans-serif;
 	letter-spacing: 0.1em;
 	min-height: calc(100vh - 0px - 940px);
+	background: #f7f9fb;
 }
 
 .container{
   width: 100% !important;
   max-width: 100% !important;
+  background: #f7f9fb;
 }
 
 .titulo {
